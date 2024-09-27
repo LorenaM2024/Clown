@@ -1,5 +1,5 @@
 *{
-    font-family: "Poppins", sans-serif;
+    font-family: "Edu AU VIC WA NT Dots";
     color:#815629
 }
 
@@ -14,7 +14,6 @@
 .Doggy{
     border: none;
     background-color:#f8d5b0;
-    font-family: "Fredoka", sans-serif;
     font-size: 1rem;
     margin: 5px;
     padding: 15px;
@@ -39,7 +38,7 @@ body{
 
 .Fristittle{
     text-align: center;
-    color: #181818;
+    color: #6D6027;
     text-decoration: dotted;
     text-decoration-color: black;
     font-size: 40px;
