@@ -1,0 +1,51 @@
+*{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    color:#815629
+}
+
+.all{
+    font-family: "Edu AU VIC WA NT Dots",;
+}
+.Doggy{
+    border: none;
+    background-color:#f8d5b0;
+    font-family: "Fredoka", sans-serif;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 40px;
+    color:#473828;
+    transition:all 0.3s ease-in-out;
+    
+}
+
+.Doggy:hover{
+    background-color: #4c341a;
+    color: #d8ba9a;
+    cursor: pointer;
+}
+body{
+    background-image:url(./Backgray.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Fristittle{
+    text-align: center;
+    color: #815629;
+    text-decoration: dotted;
+    text-decoration-color: black;
+    font-size: 30px;
+}
+
+.subtittle{
+    text-align: center;
+    font-size: 22px;
+   }
+    
+
+.HSform{
+    text-align: center;
+    color: #f8e4d0;;
+}

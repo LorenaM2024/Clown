@@ -1,10 +1,15 @@
 *{
-    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-family: "Poppins", sans-serif;
     color:#815629
 }
 
+.nav{
+    align-items: center;
+    margin: 15%;
+}
 .all{
-    font-family: "Edu AU VIC WA NT Dots",;
+    font-family: "Edu AU VIC WA NT Dots";
+    color: #6D6027;
 }
 .Doggy{
     border: none;
@@ -14,8 +19,9 @@
     margin: 5px;
     padding: 15px;
     border-radius: 40px;
-    color:#473828;
+    color:#6D6027;
     transition:all 0.3s ease-in-out;
+    text-decoration: none;
     
 }
 
@@ -25,7 +31,7 @@
     cursor: pointer;
 }
 body{
-    background-image:url(./Backgray.jpg);
+    background: linear-gradient(to bottom, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -33,10 +39,10 @@ body{
 
 .Fristittle{
     text-align: center;
-    color: #815629;
+    color: #181818;
     text-decoration: dotted;
     text-decoration-color: black;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .subtittle{
