@@ -55,6 +55,53 @@
 
 </section>
 
+<div class="container">
+
+    <h1  class="FormTittle" text-center mt-5 mb-5 text-light> Cases given</h1>
+    <div class="oneContainer container">
+        <div class="Form" id="completedCount"></div>
+        <div class="myContainer2">
+            <button id="addButton" class="Doggy">Done!</button>
+            <section>
+            
+            </section>
+            <div class="otherContainer">
+                <input type="text" id="searchInput" placeholder="To add takeaways please type keywords" class="FormInput">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="FormInput" viewBox="0 0 512 512">
+                        <title>Search</title>
+                        <path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path>
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="textareacontainer">
+            <textarea id="noteInput" style="display: none;" placeholder="Type best takeaways here." class="myTextArea"></textarea>
+            <button id="saveButton" style="display: none;" class="Doggy">Save note
+                <div class="hoverEffect">
+                    <div>
+                    </div>
+                    </div></button>
+        </div>
+
+        <div class="container">
+            <div class="row taskContainer justify-content-center" id="notesContainer">
+                    <!--Aquí se mostrarán las notas que agreguemos-->
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <input type="hidden" id="noteIndex">
+
+</div>
+
+<script src="./admin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
 
