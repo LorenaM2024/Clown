@@ -98,7 +98,7 @@ function createNoteElement(note, index){
 
 
     var editButton = document.createElement('button');
-    editButton.className = 'edit-button';
+    editButton.className = 'Doggy';
     editButton.textContent = 'Editar';
     editButton.addEventListener('click', function(){
         editNote(index);
@@ -106,7 +106,7 @@ function createNoteElement(note, index){
     noteElement.appendChild(editButton);
 
     var deleteButton = document.createElement('button');
-    deleteButton.className = 'delete-button';
+    deleteButton.className = 'Doggy';
     deleteButton.textContent = 'Eliminar';
     deleteButton.addEventListener('click', function(){
         deleteNoteElement(index);
